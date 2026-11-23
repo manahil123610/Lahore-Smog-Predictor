@@ -17,6 +17,9 @@ streamlit run app.py
 ```
 
 ## Results
+Persistence (tomorrow=today) MAE= 13.69  RMSE= 19.51  R2=0.727
+Linear Regression    MAE= 13.18  RMSE= 18.25  R2=0.761
+Random Forest        MAE= 13.13  RMSE= 18.78  R2=0.747
 <img width="823" height="407" alt="Screenshot 2026-11-23 164726" src="https://github.com/user-attachments/assets/53d04168-2b55-477e-8bb1-510336fd3351" />
 <img width="800" height="464" alt="Screenshot 2026-11-23 164617" src="https://github.com/user-attachments/assets/f40b7935-b3ba-416d-b44d-b6f205c80490" />
 
