@@ -1,4 +1,9 @@
-import streamlit as st, pandas as pd, joblib
+import subprocess, sys
+try:
+    import joblib, sklearn, matplotlib
+except ModuleNotFoundError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install",
+                           "joblib", "scikit-learn", "matplotlib"])import streamlit as st, pandas as pd, joblib
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Lahore Smog Predictor", page_icon="🌫️", layout="wide")
